@@ -5,18 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Pirata+One&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
     <!-- HEAD avec logo, titre, panier, favori et user -->
     <header class="hautpage flex1">
-        <div>LOGO</div>
+        <div class="logoSite">LOGO</div>
         <h1 class="nomSite">OG VESTIS</h1>
-        <nav>
+        <nav class="flex2 nav1">
             <input type="image" src="images/user1.png" alt="Utilisateur">
             <input type="image" src="images/heart1.png" alt="Favori">
             <input type="image" src="images/shopping-cart 1.png" alt="Panier">
         </nav>
     </header>
+
+    <!-- Genre + Recherche -->
+    <div class="genreLoupe flex1">
+        <nav class="genreMenu flex1">
+            <a href="#FEMME" class="fem">FEMME</a>
+            <a href="#MIXTE" class="mxt">MIXTE</a>
+            <a href="#HOMME">HOMME</a>
+        </nav>
+        <form action="" class="Cherche flex1">
+            <input type="text" id="recherche" maxlength="25">
+            <input type="image" src="images/loupe 1.png" alt="Cherche Bouton" class="BoutonSearch">
+        </form>
+        
+    </div>
 </body>
 </html>
