@@ -8,85 +8,8 @@ header, section {
     border: steelblue 4px solid;
 }
 
-div, nav, .nav1 input {
+div, nav, .nav1 input, img {
     border: 2px red solid;
 }
 
-.flex1 {
-    display: flex;
-    justify-content: space-between;
-}
 
-.flex2 {
-    display: flex;
-    justify-content: space-around;
-}
-
-/* HEAD (logo,titre,user,favori,panier ) */
-
-.logoSite {
-    width: 100px;
-    height: 100px;
-    background: #c4c4c4;
-    margin: 27px;
-}
-
-.nomSite {
-    font-family: 'Pirata One';
-    font-weight: normal;
-    font-size: 144px;
-}
-
-.nav1 {
-    width: 268px;
-    height: 66px;
-    align-items: center;
-    margin-top: 28px;
-    margin-right: 19px;
-}
-
-.nav1 input {
-    width: 40px;
-    height: 40.62px;
-}
-
-/* genre recherche */
-.genreMenu {
-    width: 602px;
-}
-
-.genreMenu a {
-    width: 208.5px;
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-    color: #497E6F;
-    font-size: 36px;
-    text-decoration: none;
-}
-
-.fem, .mxt {
-    border-right: 1px solid #505050;
-}
-
-.Cherche {
-    background: #E5E5E5;
-    border-radius: 39px;
-    width: 392px;
-    height: 46px;
-}
-
-#recherche {
-    border: none;
-    height: 28px;
-    width: 290px;
-    font-size: 26px;
-    margin: 9px 22px 9px;
-    background: #E5E5E5;
-}
-
-.BoutonSearch {
-    height: 30px;
-    width: 30px;
-    margin: 8px;
-    margin-right: 24px;
-}
