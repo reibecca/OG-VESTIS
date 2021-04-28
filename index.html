@@ -7,24 +7,27 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Pirata+One&display=swap" rel="stylesheet">
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;900&display=swap" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Rubik One' rel='stylesheet'> 
+    <title>OG Vestis - Accueil</title>
 </head>
 <body>
     <section class="PageHaut">
         <!-- HEAD avec logo, titre, panier, favori et user -->
-        <header class="hautpage">
+        <header class="hautpage flex1">
             <img src="images/Logo OG VESTIS.png" alt="Logo OG VESTIS">
             <h1 class="nomSite">OG VESTIS</h1>
             <nav class="nav1">
-                <input type="image" src="images/user1.png" alt="Utilisateur">
-                <input type="image" src="images/heart1.png" alt="Favori">
-                <input type="image" src="images/shopping-cart 1.png" alt="Panier">
+                <input type="image" src="images/connexionblanc.png" alt="Utilisateur">
+                <input type="image" src="images/favorisblanc.png" alt="Favori">
+                <input type="image" src="images/panierblanc.png" alt="Panier">
             </nav>
         </header>
 
         <!-- Genre + Recherche -->
-        <div class="genreLoupe">
-            <nav class="genreMenu">
+        <div class="genreLoupe flex1">
+            <nav class="genreMenu flex1">
                 <a href="#FEMME" class="fem">FEMME</a>
                 <a href="#MIXTE" class="mxt">MIXTE</a>
                 <a href="#HOMME">HOMME</a>
@@ -34,6 +37,119 @@
                 <input type="image" src="images/loupe 1.png" alt="Cherche Bouton" class="BoutonSearch">
             </form>
         </div>
+
+        <div class="soldesInfo">
+            <h2>SOLDES DE PRINTEMPS</h2>
+            <p>PROFITEZ DE -30% SUR TOUT LE SITE AVEC LE CODE AMELICA30</p>
+        </div>
     </section>
+
+    <!-- NOUVEAUTES -->
+    <section class="NouvMoment">
+        <h2 class="titreNouv fontTitre">LES NOUVEAUTÉS DU MOMENT</h2>
+        <div class="NouveautesMoment">
+            <figure class="nouvCategorie">
+                <img src="images/SneakersNouveauté.png" alt="Sneakers">
+                <p>SNEAKERS</p>
+            </figure>
+            <figure class="nouvCategorie">
+                <img src="images/HoodieNouveauté.png" alt="Hoodie">
+                <p>HOODIES UNISEXE</p>
+            </figure>
+            <figure class="nouvCategorie">
+                <img src="images/AccesssoiresNouveauté.png" alt="Accessoires">
+                <p>ACCESSOIRES</p>
+            </figure>
+        </div>
+    </section>
+
+    <!-- SELECTIONS MARQUES -->
+    <section class="marques flex2">
+        <h2 class="fontTitre titreMarques">SELECTION DES MARQUES PROPOSEES</h2>
+        <div class="flex1">
+            <img src="images/ReclaimedVintage.png" alt="ReclaimedVintage" class="logom">
+            <img src="images/Nike.png" alt="Nike" class="logom">
+            <img src="images/levis.png" alt="Levis" class="logom">
+            <img src="images/DrMartens.png" alt="DrMartens" class="logom">
+            <img src="images/JadedLondon.png" alt="JadedLondon" class="logom">
+            <img src="images/Puma-Logo.png" alt="Puma" class="logom">
+        </div>
+    </section>
+
+    <!-- NEWSLETTER -->
+    <section class="newsletter">
+        <div class="textNewsletter">
+            <h3>REJOIGNEZ NOTRE NEWSLETTER</h3>
+            <p>Et bénéficier de -15% sur votre première commande</p>
+        </div>
+        <form action="" class="flex2">
+            <input type="text" name="Nom" id="Nom" placeholder="Nom">
+            <input type="text" name="Prénom" id="Prenom" placeholder="Prénom">
+            <input type="email" name="Email" id="Mail" placeholder="Email">
+            <input type="submit" value="ENVOYER" id="Bouton">
+        </form>
+    </section>
+
+    <!-- FOOTER/ FIN DE PAGE -->
+    <footer class="flex1">
+        <div class="informations none">
+            <h4>INFORMATIONS</h4>
+            <div class="payeBloc none flex2">
+                <div class="paiementFooter none">
+                    <img src="images/bi_credit-card.png" alt="Logo CB">
+                    <p>Moyens de Paiement</p>
+                </div>
+                <div class="logosPaiement flex1 none">
+                    <img src="images/CB.png" alt="CB">
+                    <img src="images/Visa-logo.png" alt="VISA">
+                    <img src="images/Mastercard-logo.png" alt="MASTERCARD">
+                    <img src="images/American Express.png" alt="AE">
+                    <img src="images/Paypal-logo 4.png" alt="PAYPAL">
+                </div>
+            </div>
+            <div class="livrBloc none flex2">
+                <div class="livraisonFooter none">
+                    <img src="images/cil_truck.png" alt="Logo Livraison">
+                    <p>Modes de Livraison</p>
+                </div>
+                <div class="logosLivraison flex1 none">
+                    <img src="images/Logo_Chronopost_V2 1.png" alt="Chronopost Logo">
+                    <img src="images/Logo_colissimot_V2.png" alt="Colissimo Logo">
+                    <img src="images/mondial-relay-logo 1.png" alt="MondialRelay logo">
+                    <img src="images/DHL-Logo-1983-2002 1.png" alt="DHL logo">
+                </div>
+            </div>
+        </div>
+
+        <div class="ProgFidele none">
+            <h4>PROGRAMME FIDÉLITÉ</h4>
+            <ul>
+                <li> Livraison express gratuite toute l'année</li>
+                <li> Un cadeau pour votre anniversaire</li>
+                <li> Un code promo de 20%, chaque mois</li>
+                <li> Des invitations à nos éditions limitées</li>
+            </ul>
+            <a href="" class="servClient">SERVICE CLIENT</a>
+        </div>
+
+        <div class="ReseauxApplis flex2 none">
+            <div class="reseaux none">
+                <h4>NOS RÉSEAUX SOCIAUX</h4>
+                <div class="reseauxLogos flex1 none">
+                    <input type="image" src="images/insta.png" alt="Instagram">
+                    <input type="image" src="images/fb.png" alt="FaceBook">
+                    <input type="image" src="images/twi.png" alt="Twitter">
+                    <input type="image" src="images/tkk.png" alt="TikTok">
+                </div>
+            </div>
+            <div class="applis none">
+                <p>Retrouvez nous sur nos applications mobiles</p>
+                <div class="appliLogos flex1 none">
+                    <input type="image" src="images/GooglePlay.png" alt="Android">
+                    <input type="image" src="images/AppStore.png" alt="Apple">
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
