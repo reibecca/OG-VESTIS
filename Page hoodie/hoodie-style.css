@@ -1,0 +1,497 @@
+/* CSS PAGE HOODIE */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+/* BLOC HEADER */
+.promo{
+    background:rgba(158, 123, 177, 0.8);
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.icon{
+    width: 268px;
+    height: 65px;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    margin-top: 11px;
+}
+
+h1{
+    font-size: 96px;
+    height: 132px;
+    font-family: 'Rubik One' , 'sans serif';
+    color: black;
+    text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    margin-top: 31px;
+}
+
+/* BARRE MENU */
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 68px;
+}
+.titres{
+    width: 602px;
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 27px;
+}
+
+.menu h2{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 36px;
+    color: #E7A07A;
+}
+
+#forte{
+    border-right: 1px solid #505050;
+    padding-right: 35px;
+}
+
+#both{
+    border-right: 1px solid #505050;
+    padding-right: 47px;
+}
+
+#faible{
+    border-right: none;
+}
+
+#search{
+    width: 392px;
+    height: 46px;
+    background: #F6F6F5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 39px;
+    border: none;
+    margin-right: 78px;
+}
+
+
+/* BARRE VETEMENTS */
+.vêtements{
+    width: 474px;
+    height: 38px;
+    font-size: 24px;
+    color: black;
+    display: flex;
+    align-items: center;
+    margin-top: 48px;
+    margin-right: 0;
+    margin-left: 48px;
+    margin-bottom: 99px;
+}
+
+
+/* HOODIE SELECTIONNE */
+
+.hoodie-selectionné{
+    display: flex;
+    flex-direction: row;
+}
+
+.miniature{
+    display: flex;
+    flex-direction: column;
+    height: 800px;
+    margin-right: 36px;
+    margin-left: 45px;
+    justify-content: space-around;
+}
+
+.indication-hoodie{
+    margin-left: 75px;
+    margin-right: 70px;
+}
+
+.D1 h3{
+    font-weight: 300;
+    font-size: 30px;
+    color: black;
+    width: 227px;
+    height: 38px;
+}
+
+.D1 .titre-hoodie{
+    font-weight: bold;
+    font-size: 24px;
+    color: black;
+    width: 359px;
+    height: 38px;
+}
+
+.D1 p{
+    width: 87px;
+    height: 38px;
+    font-weight: 400;
+    font-size: 24px;
+    margin-bottom: 18px;
+}
+
+/*CHOIX DES TAILLES*/
+.D2 .t1{
+    width: 261px;
+    height: 35px;
+    font-size: 24px;
+    font-weight: 400;
+    color: black;
+}
+
+.D2 .tailles{
+    display: flex;
+    flex-direction: row;
+    gap: 14px;
+    margin-left: 3px;
+    margin-bottom: 23px;
+    margin-top: 3px;
+} 
+
+.D2 .t2{  
+    width: 35px;
+    height: 35px;
+    font-size: 18px;
+    font-weight: 400;
+    color: black;
+    background: #E5E5E5;
+    /* padding-left: 5px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.D3 p{
+    width: 106px;
+    height: 38px;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.D3 .col{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+/*COULEURS*/
+.couleurs{
+    display: flex;
+    flex-direction: row;
+    gap: 17px;
+    margin-bottom: 59px;
+}
+
+.D3 .rose{
+    background: #CB5887;
+}
+
+.D3 .bleu{
+    background: #32367D;
+}
+
+.D3 .gris{
+    background: #C8C1D1;
+}
+
+/*AJOUT AU PANIER*/
+.ajouter-panier{
+    /* border: 4px solid aqua; */
+    height: 56px;
+    display: flex;
+    gap: 28px;
+}
+.ajouter-panier #bouton{
+    width: 436px;
+    height: 56px;
+    background:black;
+    font-weight: 400;
+    font-size: 24px;
+    color: white;
+    text-align: center;
+}
+
+/*INFOS COMPLEMENTAIRES*/
+.more-infos{
+    width: 514px;
+    background: #F8F6F7;
+    margin-top: 84px;
+}
+
+.livraison{
+    height: 121px;
+    border: 4px solid #FFFFFF;
+    padding-left: 15px;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.livraison img{
+    width: 38px;
+    height: 37px;
+    margin-bottom: 50px;
+}
+
+.retours{
+    height: 77px;
+    border: 4px solid #FFFFFF;
+    padding-left: 15px;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.retours img{
+    width: 38px;
+    height: 30px;
+}
+
+.echange{
+    height: 69px;
+    border: 4px solid #FFFFFF;
+    padding-left: 15px;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.echange img{
+    width: 40px;
+    height: 40px;
+}
+
+/* AUTRES ARTICLES */
+.autres h2{
+    width: 1345px;
+    height: 72px;
+    background: rgba(173, 140, 181, 0.7);
+    font-weight: 500;
+    font-size: 36px;
+    color: #F4F2F0;
+    border: none;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 14px 178px;
+    margin-right: 48px;
+    margin-left: 48px;
+    margin-top: 167px;
+    margin-bottom: 67px;
+}
+.grid2{
+    display: grid;
+    grid-gap: 35px;
+}
+
+.autres-articles{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-right: 48px;
+    margin-left: 48px;
+    margin-bottom: 120px;
+}
+
+.vet{
+    position: relative;
+}
+.nom{
+    width: 310px;
+    height: 46px;
+    font-weight: 300;
+    font-size: 18px;
+    color: #F8F6F7;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    position: absolute;
+    top: 374px;
+
+}
+
+
+
+/* FOOTER */
+
+.flex1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* FOOTER / FIN DE PAGE */
+footer {
+    height: 415px;
+    background: #E7D0C4;
+    padding-top: 41px;
+    padding-left: 33px;
+    padding-right: 33px;
+    color: #F8F6F7;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+}
+
+
+.ReseauxApplis, .informations {
+    width: 350px;
+}
+
+.ProgFidele {
+    width: 371px;
+    height: 307px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h4 {
+    height: 50px;
+    width: 350px;
+    border: 4px solid #F8F6F7;
+    font-size: 24px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* // 1 - LIVRAISON ET PAIEMENT // */
+.informations {
+    height: 314px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.payeBloc {
+    height: 73px;
+}
+
+.livrBloc {
+    height: 95px;
+}
+
+.paiementFooter, .livraisonFooter {
+    display: flex;
+    justify-content: space-between;
+    width: 245px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    align-items: center;
+}
+
+.logosPaiement {
+    width: 280px;
+}
+
+.logosLivraison {
+    width: 295px;
+}
+
+
+
+/* // 2 - PROGRAMME FIDELITE // */
+
+li {
+    font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 400;
+}
+
+.ProgFidele a {
+    color: inherit;
+    font-size: 24px;
+}
+
+
+/* // 3 - RESEAUX ET APPLIS // */
+.ReseauxApplis {
+    height: 291.9px;
+    align-items: center;
+}
+
+.reseaux h4 {
+    margin-bottom: 40px;
+}
+
+.applis {
+    width: 259px;
+    height: 90.9px;
+}
+
+.applis p {
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+
+/* ------ MEDIAS QUERIS ------ */
+
+@media (max-width: 800px){
+    .autres-articles{
+        grid-template-columns: 1fr 1fr;}
+}
+
+@media (max-width: 400px){
+    .autres-articles{
+        grid-template-columns: 1fr;}
+    #logo-site{
+        width: 50px;
+        height: 50px;}
+    h1{
+        font-size:40px;}
+    .icon{
+        width: 100px;
+        height: 30px;}
+    .promo{
+        font-size: 12px;
+    }
+    .menu{
+        margin-top: 0px;
+        gap: 50px;
+    }
+    .menu h2{
+        font-size: 18px;
+    }
+    #forte{
+        border-right: none;
+        padding-right: 10px;
+    }
+    #both{
+        border-right: none;
+        padding-right: 10px;
+    }
+    .titres{
+        width: 300px;
+    }
+    #search{
+        width: 100px;
+        height: 20px;}
+    .vêtements{
+        font-size: 12px;
+        margin-top: 0;
+    }
+}
