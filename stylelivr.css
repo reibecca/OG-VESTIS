@@ -1,0 +1,537 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'rubik',sans-serif;
+}
+
+section {
+    margin-top: 75px;
+}
+
+/* TKT CA SERT */
+.flex1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.gridLivraison {
+    display: grid;
+    grid-gap: 30px;
+}
+
+
+/* BLOC HEADER */
+h1 {
+    font-family: 'Rubik One';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 96px;
+    line-height: 119px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+    text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.promo{
+    background:rgba(158, 123, 177, 0.8);
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.icon{
+    width: 268px;
+    height: 65px;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    margin-top: 11px;
+}
+
+/* LIVRAISON TYPE */
+.livraisonZone {
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.livrBloc1, .livrBloc2 {
+    margin-left: 50px;
+}
+
+/* /TITRE + CHOIX/ */
+.livrBloc1 h2, .livrBloc2 h2 {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 43px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    margin-bottom: 30px;
+}
+
+.livrBloc1 p {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    margin-bottom: 15px;
+}
+
+.DomiRelais {
+    width: 650px;
+    margin-bottom: 25px;
+}
+
+.DomiRelais input {
+    width: 300px;
+    height: 59.98px;
+    background: #AD8CB5;
+    opacity: 0.9;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #F8F6F7;
+    border: none;
+    cursor: pointer;
+}
+
+.DomiRelais input:active {
+    background: #a255b6;
+}
+
+/* /LIVRAISON CHOIX/ */
+.livre {
+    height: 100px;
+    background: #F8F6F7;
+    width: 650px;
+    gap: 32px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.livre input {
+    width: 40px;
+    height: 40px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    margin-left: 21px;
+}
+
+.livre label {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    width: 73px;
+    height: 28px;
+}
+
+.livre p {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    height: 28px;
+}
+
+/* ADRESSES */
+.Adress {
+    width: 700px;
+    height: 593px;
+    background: #F8F6F7;
+}
+
+.AdressPlus {
+    width: 700px;
+}
+
+.Adress form {
+    width: 311px;
+    height: 429px;
+    border: greenyellow 1px solid;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #0A0A09;
+}
+
+.IL, .IL2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.IL input, .IL2 input {
+    height: 40px;
+    width: 280px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #0A0A09;
+    border: none;
+    margin-top: 11px;
+}
+.formPart1 {
+    padding-left: 15px;
+}
+
+.formPart2 {
+    align-items: flex-end;
+    padding-right: 15px;
+}
+
+#Bouton1 {
+    width: 227px;
+    height: 56px;
+    background: #0A0A09;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: #FFFEFE;
+    margin-top: 55px;
+    margin-left: 210px;
+}
+
+/* RECAPTULATIF */
+.recapContainer {
+    width: 400px;
+    height: 1200px;
+}
+
+.titreRecap {
+    height: 84px;
+    background: #F8F6F7;
+    display: flex;
+}
+
+.titreRecap h3 {
+    width: 250px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    padding-left: 19px;
+
+}
+
+.titreRecap input {
+    height: 84px;
+    width: 150px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #F8F6F7;
+    background: #070707;
+    border: none;
+}
+
+.ArticlesTout {
+    height: 900px;
+    background: #F8F6F7;
+}
+
+.achatArt {
+    width: 360px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.achatArt img {
+    border: white 10px solid;
+    height: 120px;
+    width: 90px;
+}
+
+.infoArt {
+    width: 218px;
+    height: 120px;
+}
+
+
+.infoArt h4 {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.infoArt p {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.espaceArt {
+    width: 218px;
+}
+
+hr {
+    border: 3px solid #000000;
+    transform: matrix(1, 0, 0.01, 1, 0, 0);
+}
+
+.tes {
+    display: flex;
+    justify-content: space-between;
+    width: 360px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+
+}
+
+.tes p {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.tes .des {
+    width: 214px;
+}
+
+.incluse {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: right;
+    color: #8C8C8C;
+    margin-bottom: 50px;
+}
+
+.TotalPrix {
+    width: 400px;
+    height: 69px;
+    background: #E7A07A;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #FFFDFD;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.taxes {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    margin-top: 20px;
+}
+
+#bouton2 {
+    width: 400px;
+    height: 56px;
+    background: #000000;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    margin-top: 75px;
+}
+
+
+
+.vestis {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    margin: 50px;
+}
+
+
+
+/* FOOTER / FIN DE PAGE */
+footer {
+    height: 415px;
+    background: #E7D0C4;
+    padding-top: 41px;
+    padding-left: 33px;
+    padding-right: 33px;
+    color: #F8F6F7;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+}
+
+
+.ReseauxApplis, .informations {
+    width: 350px;
+}
+
+.ProgFidele {
+    width: 371px;
+    height: 307px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer h4 {
+    height: 50px;
+    width: 350px;
+    border: 4px solid #F8F6F7;
+    font-size: 24px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* // 1 - LIVRAISON ET PAIEMENT // */
+.informations {
+    height: 314px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.payeBloc {
+    height: 73px;
+}
+
+.livrBloc {
+    height: 95px;
+}
+
+.paiementFooter, .livraisonFooter {
+    display: flex;
+    justify-content: space-between;
+    width: 245px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    align-items: center;
+}
+
+.logosPaiement {
+    width: 280px;
+}
+
+.logosLivraison {
+    width: 295px;
+}
+
+
+
+/* // 2 - PROGRAMME FIDELITE // */
+
+li {
+    font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 400;
+}
+
+.ProgFidele a {
+    color: inherit;
+    font-size: 24px;
+}
+
+
+/* // 3 - RESEAUX ET APPLIS // */
+.ReseauxApplis {
+    height: 291.9px;
+    align-items: center;
+}
+
+.reseaux h4 {
+    margin-bottom: 40px;
+}
+
+.applis {
+    width: 259px;
+    height: 90.9px;
+}
+
+.applis p {
+    text-align: center;
+    margin-bottom: 16px;
+}
