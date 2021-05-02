@@ -6,6 +6,10 @@
     font-family: 'Rubik', sans-serif;
 }
 
+header a {
+    text-decoration: none;
+}
+
 /* BLOC HEADER */
 .promo{
     background:rgba(158, 123, 177, 0.8);

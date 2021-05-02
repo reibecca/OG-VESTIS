@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+header a {
+    text-decoration: none;
+}
+
 .none {
     border: none;
 }
@@ -158,8 +162,10 @@
     color: #000000;
     text-shadow: #FFFFFF 0 0 4px, #FFFFFF 0 0 4px, #FFFFFF 0 0 4px, #FFFFFF 0 0 4px, #FFFFFF 0 0 4px, #FFFFFF 0 0 4px, #FFFFFF 0 0 4px, #FFFFFF 0 0 4px, #FFFFFF 0 0 4px, #FFFFFF 0 0 4px, #FFFFFF 0 0 4px, #FFFFFF 0 0 4px;
     position: absolute;
-    left: 207px;
+    z-index: 10;
+    left: 107px;
     top: 1181px;
+
 }
 
 .nouvCategorie img, .nouvCategorie {
