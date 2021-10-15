@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/5-Paiement/paiement-style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Rubik One' rel='stylesheet'> 
+    <title>OG Vestis - Paiement</title>
+</head>
+<body>
+    <!-- BLOC HEADER -->
+    <header>
+        <div>
+            <p class="promo">MOINS 30% SUR TOUT LE SITE AVEC LE CODE AMELICA30</p>
+            <nav>
+                <img src="/5-Paiement/img-paiement/logo.png" alt="logo du site">
+                <a href="index.html"><h1> OG VESTIS</h1></a>
+                <div class="icon">
+                    <input class="pan" type="image" src="/5-Paiement/img-paiement/compte.png" alt="icone compte">
+                    <input class="pan" type="image" src="/5-Paiement/img-paiement/favoris.png" alt="icone favoris">
+                    <a href="/4-Panier/panier.html"><input class="pan" type="image" src="/Logo-Header-2/panier.png" alt="icone panier"></a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <h2 class="titrePaiement">MOYEN DE PAIEMENT</h2>
+    <section class="paieContainer gridPaye">
+        
+        <div class="paieOptions">
+            <div class="carteSauvegardee">
+                <input type="checkbox" name="enregistree" id="saveCard">
+                <label for="saveCard">Carte Enregistrée</label>
+            </div>
+
+
+            <div class="carteNouv">
+                <div class="nouvCheckbox">
+                    <input type="checkbox" name="nouvelle" id="newCard">
+                    <label for="newCard">Ajouter une nouvelle carte</label>
+                </div>
+
+                <div class="logosCards">
+                    <img src="/5-Paiement/img-paiement/CB 1.png" alt="CB">
+                    <img src="/5-Paiement/img-paiement/Visa-logo.png" alt="VISA">
+                    <img src="/5-Paiement/img-paiement/Mastercard-logopaie.png" alt="MC">
+                    <img src="/5-Paiement/img-paiement/American Express 1.png" alt="AE">
+                </div>
+
+                <form action="" class="coordBank">
+                    <div class="Titulaire">
+                        <h3>Titulaire (comme indiqué sur la Carte)</h3>
+                        <input class="formPay" type="text" name="Titulaire" id="CardOwner" placeholder="Nom du Titulaire">
+                    </div>
+
+                    <div class="NumCarte">
+                        <h3>Numéro de la Carte</h3>
+                        <input class="formPay" type="text" name="Titulaire" id="CardNumber" placeholder="XXXX XXXX XXXX XXXX">
+                    </div>
+
+                    <div class="DateCrypto">
+                        <div class="DateExp">
+                            <h3>Date d'Expiration</h3>
+                            <div class="formdate">
+                                <input class="formPay" type="text" name="Mois" id="MonthExp" placeholder="XX">
+                                <input class="formPay" type="text" name="Annee" id="YearExp" placeholder="XX">
+                            </div>
+                        </div>
+
+                        <div class="Cryptogramme">
+                            <h3>Cryptogramme</h3>
+                            <input class="formPay" type="text" name="Cryptogram" id="Cryptogram" placeholder="XXX">
+                        </div>
+
+                    </div>
+
+                    <div class="ChoixSave">
+                        <input type="checkbox" name="Mémorisation" id="SaveChoice">
+                        <label for="newCard">Mémoriser les coordonnées de la carte Bancaire pour les prochaines commandes</label>
+                    </div>
+
+                    
+                </form>
+                <input type="submit" value="VALIDER" class="validation">
+            </div>
+
+
+            <div class="payPal">
+                <div class="paypalCheckbox">
+                    <input type="checkbox" name="paypal" id="paypalCard">
+                    <label for="paypalCard">Paypal</label>
+                </div>
+                <img src="/5-Paiement/img-paiement/Paypal-logo.png" alt="Logo Paypal">
+            </div>
+        </div>
+
+        <div class="FinalContainer">
+            <div class="livraisonContain">
+                <p>Livraison</p>
+                <p>Gratuite</p>
+            </div>
+            <hr>
+            <div class="TOTAL">
+                <p>TOTAL <span>(TVA incluse)</span></p>
+                <p>72,78€</p>
+            </div>
+            <a href="/7-Commande-validée/commande.html"><input type="submit" value="FINALISER VOTRE COMMANDE" class="validation finalC"></a>
+        </div>
+    </section>
+
+    
+    <!-- FOOTER -->
+
+    <footer class="flex1">
+        <div class="informations none">
+            <h4>INFORMATIONS</h4>
+            <div class="payeBloc none flex2">
+                <div class="paiementFooter none">
+                    <img src="/Logo-Footer-2/bi_credit-card.png" alt="Logo CB">
+                    <p>Moyens de Paiement</p>
+                </div>
+                <div class="logosPaiement flex1 none">
+                    <img src="/Logo-Footer-2/CB.png" alt="CB">
+                    <img src="/Logo-Footer-2/Visa-logo.png" alt="VISA">
+                    <img src="/Logo-Footer-2/Mastercard-logo.png" alt="MASTERCARD">
+                    <img src="/Logo-Footer-2/American Express.png" alt="AE">
+                    <img src="/Logo-Footer-2/Paypal-logo.png" alt="PAYPAL">
+                </div>
+            </div>
+            <div class="livrBloc none flex2">
+                <div class="livraisonFooter none">
+                    <img src="/Logo-Footer-2/truck.png" alt="Logo Livraison">
+                    <p>Modes de Livraison</p>
+                </div>
+                <div class="logosLivraison flex1 none">
+                    <img src="/Logo-Footer-2/Logo-Chronopost.png" alt="Chronopost Logo">
+                    <img src="/Logo-Footer-2/Logo-colissimo.png" alt="Colissimo Logo">
+                    <img src="/Logo-Footer-2/mondial-relay-logo.png" alt="MondialRelay logo">
+                    <img src="/Logo-Footer-2/DHL-Logo.png" alt="DHL logo">
+                </div>
+            </div>
+        </div>
+
+        <div class="ProgFidele none">
+            <h4>PROGRAMME FIDÉLITÉ</h4>
+            <ul>
+                <li> Livraison express gratuite toute l'année</li>
+                <li> Un cadeau pour votre anniversaire</li>
+                <li> Un code promo de 20%, chaque mois</li>
+                <li> Des invitations à nos éditions limitées</li>
+            </ul>
+            <a href="" class="servClient">SERVICE CLIENT</a>
+        </div>
+
+        <div class="ReseauxApplis flex2 none">
+            <div class="reseaux none">
+                <h4>NOS RÉSEAUX SOCIAUX</h4>
+                <div class="reseauxLogos flex1 none">
+                    <input type="image" src="/Logo-Footer-2/insta.png" alt="Instagram">
+                    <input type="image" src="/Logo-Footer-2/fb.png" alt="FaceBook">
+                    <input type="image" src="/Logo-Footer-2/twi.png" alt="Twitter">
+                    <input type="image" src="/Logo-Footer-2/tkk.png" alt="TikTok">
+                </div>
+            </div>
+            <div class="applis none">
+                <p>Retrouvez nous sur nos applications mobiles</p>
+                <div class="appliLogos flex1 none">
+                    <input type="image" src="/Logo-Footer-2/GooglePlay.png" alt="Android">
+                    <input type="image" src="/Logo-Footer-2/AppStore.png" alt="Apple">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

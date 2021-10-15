@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/1-Accueil/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Pirata+One&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -16,12 +16,12 @@
     <section class="PageHaut">
         <!-- HEAD avec logo, titre, panier, favori et user -->
         <header class="hautpage flex1">
-            <img src="images/Logo OG VESTIS.png" alt="Logo OG VESTIS">
+            <img src="/1-Accueil/img-accueil/Logo OG VESTIS.png" alt="Logo OG VESTIS">
             <h1 class="nomSite">OG VESTIS</h1>
             <nav class="nav1">
-                <input type="image" src="images/connexionblanc.png" alt="Utilisateur">
-                <input type="image" src="images/favorisblanc.png" alt="Favori">
-                <a href="projet2 panier/index.html"><input type="image" src="images/panierblanc.png" alt="Panier"></a>
+                <input type="image" src="/1-Accueil/img-accueil/connexionblanc.png" alt="Utilisateur">
+                <input type="image" src="/1-Accueil/img-accueil/favorisblanc.png" alt="Favori">
+                <a href="/4-Panier/panier.html"><input type="image" src="/1-Accueil/img-accueil/panierblanc.png" alt="Panier"></a>
             </nav>
         </header>
 
@@ -30,11 +30,11 @@
             <nav class="genreMenu flex1">
                 <a href="#FEMME" class="fem">FEMME</a>
                 <a href="#MIXTE" class="mxt">MIXTE</a>
-                <a href="#HOMME">HOMME</a>
+                <a href="#HOMME" class="hom">HOMME</a>
             </nav>
             <form action="" class="Cherche">
                 <input type="text" id="recherche" maxlength="25">
-                <input type="image" src="images/loupe 1.png" alt="Cherche Bouton" class="BoutonSearch">
+                <input id="loupe" type="image" src="/1-Accueil/img-accueil/loupe 1.png" alt="Cherche Bouton">
             </form>
         </div>
 
@@ -49,30 +49,31 @@
         <h2 class="titreNouv fontTitre">LES NOUVEAUTÉS DU MOMENT</h2>
         <div class="NouveautesMoment">
             <figure class="nouvCategorie">
-                <img src="images/SneakersNouveauté.png" alt="Sneakers">
+                <img src="/1-Accueil/img-accueil/SneakersNouveauté.png" alt="Sneakers">
                 <p>SNEAKERS</p>
             </figure>
             <figure class="nouvCategorie">
-                <a href="vetements.html"><img src="images/HoodieNouveauté.png" alt="Hoodie"></a>
+                <a href="/2-Vêtements-Hoodies/vetements.html"><img src="/1-Accueil/img-accueil/HoodieNouveauté.png" alt="Hoodie"></a>
                 <p>HOODIES UNISEXE</p>
             </figure>
             <figure class="nouvCategorie">
-                <img src="images/AccesssoiresNouveauté.png" alt="Accessoires">
+                <img src="/1-Accueil/img-accueil/AccesssoiresNouveauté.png" alt="Accessoires">
                 <p>ACCESSOIRES</p>
             </figure>
         </div>
+        <hr>
     </section>
 
     <!-- SELECTIONS MARQUES -->
     <section class="marques flex2">
-        <h2 class="fontTitre titreMarques">SELECTION DES MARQUES PROPOSEES</h2>
-        <div class="flex1">
-            <img src="images/ReclaimedVintage.png" alt="ReclaimedVintage" class="logom">
-            <img src="images/Nike.png" alt="Nike" class="logom">
-            <img src="images/levis.png" alt="Levis" class="logom">
-            <img src="images/DrMartens.png" alt="DrMartens" class="logom">
-            <img src="images/JadedLondon.png" alt="JadedLondon" class="logom">
-            <img src="images/Puma-Logo.png" alt="Puma" class="logom">
+        <h2 class="fontTitre titreMarques">SELECTION DES MARQUES PROPOSÉES</h2>
+        <div class="brand flex1">
+            <img src="/1-Accueil/img-accueil/ReclaimedVintage.png" alt="ReclaimedVintage" class="logom">
+            <img src="/1-Accueil/img-accueil/Nike.png" alt="Nike" class="logom">
+            <img src="/1-Accueil/img-accueil/levis.png" alt="Levis" class="logom">
+            <img src="/1-Accueil/img-accueil/DrMartens.png" alt="DrMartens" class="logom">
+            <img src="/1-Accueil/img-accueil/JadedLondon.png" alt="JadedLondon" class="logom">
+            <img src="/1-Accueil/img-accueil/Puma-Logo.png" alt="Puma" class="logom">
         </div>
     </section>
 
@@ -82,7 +83,7 @@
             <h3>REJOIGNEZ NOTRE NEWSLETTER</h3>
             <p>Et bénéficier de -15% sur votre première commande</p>
         </div>
-        <form action="" class="flex2">
+        <form netlify action="" class="flex2" >
             <input type="text" name="Nom" id="Nom" placeholder="Nom">
             <input type="text" name="Prénom" id="Prenom" placeholder="Prénom">
             <input type="email" name="Email" id="Mail" placeholder="Email">
@@ -96,27 +97,27 @@
             <h4>INFORMATIONS</h4>
             <div class="payeBloc none flex2">
                 <div class="paiementFooter none">
-                    <img src="images/bi_credit-card.png" alt="Logo CB">
+                    <img src="/1-Accueil/img-accueil/bi_credit-card.png" alt="Logo CB">
                     <p>Moyens de Paiement</p>
                 </div>
                 <div class="logosPaiement flex1 none">
-                    <img src="images/CB.png" alt="CB">
-                    <img src="images/Visa-logo.png" alt="VISA">
-                    <img src="images/Mastercard-logo.png" alt="MASTERCARD">
-                    <img src="images/American Express.png" alt="AE">
-                    <img src="images/Paypal-logo 4.png" alt="PAYPAL">
+                    <img src="/1-Accueil/img-accueil/CB.png" alt="CB">
+                    <img src="/1-Accueil/img-accueil/Visa-logo.png" alt="VISA">
+                    <img src="/1-Accueil/img-accueil/Mastercard-logo.png" alt="MASTERCARD">
+                    <img src="/1-Accueil/img-accueil/American Express.png" alt="AE">
+                    <img src="/1-Accueil/img-accueil/Paypal-logo 4.png" alt="PAYPAL">
                 </div>
             </div>
             <div class="livrBloc none flex2">
                 <div class="livraisonFooter none">
-                    <img src="images/cil_truck.png" alt="Logo Livraison">
+                    <img src="/1-Accueil/img-accueil/cil_truck.png" alt="Logo Livraison">
                     <p>Modes de Livraison</p>
                 </div>
                 <div class="logosLivraison flex1 none">
-                    <img src="images/Logo_Chronopost_V2 1.png" alt="Chronopost Logo">
-                    <img src="images/Logo_colissimot_V2.png" alt="Colissimo Logo">
-                    <img src="images/mondial-relay-logo 1.png" alt="MondialRelay logo">
-                    <img src="images/DHL-Logo-1983-2002 1.png" alt="DHL logo">
+                    <img src="/1-Accueil/img-accueil/Logo_colissimot_V2.png" alt="Chronopost Logo">
+                    <img src="/1-Accueil/img-accueil/Logo_colissimot_V2 1.png" alt="Colissimo Logo">
+                    <img src="/1-Accueil/img-accueil/mondial-relay-logo 1.png" alt="MondialRelay logo">
+                    <img src="/1-Accueil/img-accueil/DHL-Logo-1983-2002 1.png" alt="DHL logo">
                 </div>
             </div>
         </div>
@@ -136,17 +137,17 @@
             <div class="reseaux none">
                 <h4>NOS RÉSEAUX SOCIAUX</h4>
                 <div class="reseauxLogos flex1 none">
-                    <input type="image" src="images/insta.png" alt="Instagram">
-                    <input type="image" src="images/fb.png" alt="FaceBook">
-                    <input type="image" src="images/twi.png" alt="Twitter">
-                    <input type="image" src="images/tkk.png" alt="TikTok">
+                    <input type="image" src="/1-Accueil/img-accueil/insta.png" alt="Instagram">
+                    <input type="image" src="/1-Accueil/img-accueil/fb.png" alt="FaceBook">
+                    <input type="image" src="/1-Accueil/img-accueil/twi.png" alt="Twitter">
+                    <input type="image" src="/1-Accueil/img-accueil/tkk.png" alt="TikTok">
                 </div>
             </div>
             <div class="applis none">
                 <p>Retrouvez nous sur nos applications mobiles</p>
                 <div class="appliLogos flex1 none">
-                    <input type="image" src="images/GooglePlay.png" alt="Android">
-                    <input type="image" src="images/AppStore.png" alt="Apple">
+                    <input type="image" src="/1-Accueil/img-accueil/GooglePlay.png" alt="Android">
+                    <input type="image" src="/1-Accueil/img-accueil/AppStore.png" alt="Apple">
                 </div>
             </div>
         </div>

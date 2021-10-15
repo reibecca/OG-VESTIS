@@ -1,0 +1,544 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+header a {
+    text-decoration: none;
+}
+
+/* .menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+} */
+
+/* BLOC HEADER */
+.promo{
+    background:rgba(158, 123, 177, 0.8);
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
+nav{
+    /* border: 4px solid lightgreen; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.icon{
+    /* border: 4px solid aqua; */
+    width: 200px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    margin-top: 11px;
+}
+
+#pan{
+    width: 30px;
+    height: 30px;
+}
+
+h1{
+    /* border: 4px solid salmon; */
+    font-size: 96px;
+    height: 132px;
+    font-family: 'Rubik One';
+    color: black;
+    text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    margin-top: 31px;
+}
+
+/* ENSEMBLE DES BLOCS */
+h2{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 118px;
+    margin-bottom: 33px;
+    margin-left: 72px;
+}
+
+#ensemble{
+    display: flex;
+    flex-direction: row;
+    gap: 45px;
+}
+
+
+/* ----- INTERIEUR DU PANIER ------ */
+
+.articles{
+    /* border: 4px solid purple; */
+    width: 846px;
+    height: 997px;
+    background: #F8F6F7;
+    margin-left: 30px;
+}
+
+.art{
+    width: 804px;
+    height: 297px;  
+    display: flex;
+    flex-direction: row;
+    background: white;
+}
+
+.photo{
+    width: 215px;
+    height: 255px;
+    border: 1px solid black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 27px;
+    padding-left: 27px;
+    margin-top: 21px;
+    margin-left: 21px;
+}
+.art1{
+    margin-left: 21px;
+    margin-right: 21px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.art2{
+    margin-left: 21px;
+    margin-right: 21px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.art3{
+    margin-left: 21px;
+    margin-right: 21px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.description{
+    margin-left: 16px;
+    margin-top: 40px;
+}
+
+.infos{
+    width: 525px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.tai{
+    display: flex;
+    flex-direction: row;
+}
+
+.logos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 26px;
+    margin-top: 20px;
+}
+
+.prix{
+    border: 1px solid black;
+    width: 80px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.art h3{
+    font-family: Rubik;
+    font-weight: 400;
+    font-size: 22px;
+    color: black;
+}
+
+.couleur p{
+    font-family: Rubik;
+    font-weight: 300;
+    font-size: 22px;
+    color: black;
+}
+
+.tai{
+    width: 275px;
+    gap:20px;
+}
+
+.tai p{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    color: black;
+}
+
+.Size{
+    font-family: Rubik;
+    font-weight: 400;
+    font-size: 18px;
+    color: black;
+    border: none;
+    width: 35px;
+    height: 35px;
+    background: #E5E5E5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.couleur{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+
+}
+
+.col{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+/* COULEUR ART 1*/
+.col1{
+    display: flex;
+    flex-direction: row;
+    gap: 17px;
+}
+.rose{
+    background: #C65584;
+}
+.bleu{
+    background: #2F3178;
+}
+.gris{
+    background: #C8C1D1;
+}
+
+/* COULEUR ART 2 */
+.col2{
+    display: flex;
+    flex-direction: row;
+    gap: 17px;
+}
+.bleu1{
+    background: #385CB1;
+}
+.orange{
+    background: #E68752;
+}
+.noir{
+    background:black;
+}
+
+/* COULEUR ART 3 */
+.col3{
+    display: flex;
+    flex-direction: row;
+    gap: 17px;
+}
+.lilas{
+    background: #B5A1BD;
+}
+
+
+
+
+/* ---- TOTAL DU PANIER ----- */
+
+.background{
+    width: 489px;
+    height: 595px;
+    background: #F8F6F7;;
+}
+
+.total h3{
+    width: 405.46px;
+    height: 50px;
+    font-weight: 500;
+    font-size: 36px;
+    color: black;
+    margin-left: 20px;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+.total{
+    /* border: 4px solid aqua; */
+    width: 447px;
+    height: 545px;
+    margin-left: 21px;
+    margin-top: 25px;
+    background: white;
+}
+
+.ensemble2{
+    display: flex;
+    flex-direction: row;
+    gap: 89px;
+}
+
+.name{
+    /* border: 4px solid pink; */
+    width: 212px;
+    height: 235px;
+    font-family: "Rubik";
+    font-weight: 400;
+    font-size: 22px;
+    margin-left: 20px;
+    margin-top: 32px;
+}
+
+.price{
+    /* border: 4px solid orange; */
+    width: 108px;
+    height: 235px;
+    font-family: "Rubik";
+    font-weight: 400;
+    font-size: 22px;
+    margin-right: 20px;
+    margin-top: 32px;
+    text-align: right;
+
+}
+
+hr{
+    width: 404.57px;
+    border: 5px solid #000000;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.gros-total{
+    /* border: 4px solid green; */
+    width: 400px;
+    height: 50px;
+    font-family: "Rubik";
+    font-weight: 500;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 11px;
+    margin-bottom: 55px;
+}
+
+#bouton{
+    width: 315px;
+    height: 56px;
+    background: black;
+    font-weight: 400;
+    font-size: 24px;
+    color: white;
+    margin-left: 66px;
+}
+
+#bouton:hover{
+    background-color: #AD8CB5;
+    border: #AD8CB5;
+}
+
+
+/* ----- LIVRAISON ----- */
+
+.livraison-lune{
+    /* border: 4px solid purple; */
+    width: 846px;
+    height: 373px;
+    background: #F8F6F7;
+    margin-left: 30px;
+    margin-top: 124px;
+    margin-bottom: 107px;
+}
+
+.liv{
+    display: flex;
+    align-self: center;
+    padding-top: 23px;
+    padding-left: 24px;
+    gap: 35px;
+}
+
+#truck{
+    width: 55px;
+    height: 50px;
+}
+
+.liv h3{
+    width: 653px;
+    height: 55px;
+    font-weight: 500;
+    font-size: 35px;
+    color: black;
+    padding-top: 7px;
+}
+
+.lun{
+    width: 801px;
+    height: 228px;
+    background: white;
+    width: 801px;
+    height: 228px;
+    margin-top: 30px;
+    margin-left: 22px;
+    margin-right: 22px;
+}
+
+.lun p{
+    width: 746px;
+    height: 179px;
+    /* border: 4px solid blue; */
+    padding-left: 30px;
+    padding-top: 25px;
+    font-weight: 400;
+    font-size: 22px;
+    
+}
+
+
+/* TKT CA SERT */
+.flex1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+/* ----- FOOTER / FIN DE PAGE ----- */
+footer {
+    height: 415px;
+    background: #E7D0C4;
+    padding-top: 41px;
+    padding-left: 33px;
+    padding-right: 33px;
+    color: #F8F6F7;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+}
+
+
+.ReseauxApplis, .informations {
+    width: 350px;
+}
+
+.ProgFidele {
+    width: 371px;
+    height: 307px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h4 {
+    height: 50px;
+    width: 350px;
+    border: 4px solid #F8F6F7;
+    font-size: 24px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* // 1 - LIVRAISON ET PAIEMENT // */
+.informations {
+    height: 314px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.payeBloc {
+    height: 73px;
+}
+
+.livrBloc {
+    height: 95px;
+}
+
+.paiementFooter, .livraisonFooter {
+    display: flex;
+    justify-content: space-between;
+    width: 245px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    align-items: center;
+}
+
+.livraisonFooter p{
+    margin-right: 15px;
+} 
+
+.logosPaiement {
+    width: 280px;
+}
+
+.logosLivraison {
+    width: 295px;
+}
+
+
+
+/* // 2 - PROGRAMME FIDELITE // */
+
+li {
+    font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 400;
+}
+
+.ProgFidele a {
+    color: inherit;
+    font-size: 24px;
+}
+
+ul{
+    width: 371px;
+    padding-left: 30px;
+}
+
+
+/* // 3 - RESEAUX ET APPLIS // */
+.ReseauxApplis {
+    height: 291.9px;
+    align-items: center;
+}
+
+.reseauxLogos{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.reseaux h4 {
+    margin-bottom: 40px;
+}
+
+.applis {
+    width: 259px;
+    height: 90.9px;
+}
+
+.applis p {
+    text-align: center;
+    margin-bottom: 16px;
+}

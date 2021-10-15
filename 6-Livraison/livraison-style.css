@@ -1,0 +1,600 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    /* box-sizing: border-box; */
+    font-family: 'rubik',sans-serif;
+}
+
+header a {
+    text-decoration: none;
+}
+
+section {
+    margin-top: 75px;
+}
+
+/* TKT CA SERT */
+.flex1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.gridLivraison {
+    display: grid;
+    grid-gap: 30px;
+}
+
+
+/* BLOC HEADER */
+.promo{
+    background:rgba(158, 123, 177, 0.8);
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
+nav{
+    /* border: 4px solid lightgreen; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.icon{
+    /* border: 4px solid aqua; */
+    width: 200px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    margin-top: 11px;
+}
+
+.pan{
+    width: 30px;
+    height: 30px;
+}
+
+h1{
+    /* border: 4px solid salmon; */
+    font-size: 96px;
+    height: 132px;
+    font-family: 'Rubik One';
+    color: black;
+    text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    margin-top: 31px;
+}
+
+/* ENSEMBLE DES BLOCS */
+h2{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    /* margin-top: 118px; */
+    margin-bottom: 33px;
+    margin-left: 30px;
+}
+
+#ensemble{
+    display: flex;
+    flex-direction: row;
+    gap: 45px;
+}
+
+/* LIVRAISON TYPE */
+.livraisonZone {
+    grid-template-columns: 1fr 1fr;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+/* .livrBloc1, .livrBloc2 {
+    margin-left: 50px;
+} */
+
+.livrBloc2{
+    margin-top: 50px;
+}
+
+.livrBloc2 h2{
+    font-weight: 30px;
+}
+
+/* /TITRE + CHOIX/ */
+.livrBloc1 h2, .livrBloc2 h2 {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 43px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    margin-bottom: 30px;
+}
+
+.livrBloc1 p {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    /* margin-bottom: 15px; */
+}
+
+.DomiRelais {
+    width: 430px;
+    margin: 25px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.DomiRelais input {
+    width: 200px;
+    height: 40px;
+    background: #AD8CB5;
+    opacity: 0.9;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 28px;
+    text-align: center;
+    color: #F8F6F7;
+    border: none;
+    cursor: pointer;
+}
+
+.DomiRelais input:active {
+    background: #836a8a;
+}
+
+/* /LIVRAISON CHOIX/ */
+.livre {
+    height: 75px;
+    background: #F8F6F7;
+    /* width: 650px; */
+    gap: 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.livre input {
+    width: 30px;
+    height: 30px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    margin-left: 21px;
+}
+
+.livre label {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    width: 73px;
+    height: 28px;
+}
+
+.livre p {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    height: 28px;
+}
+
+/* ADRESSES */
+.Adress {
+    width: 700px;
+    height: 560px;
+    background: #F8F6F7;
+}
+
+.AdressPlus {
+    width: 700px;
+}
+
+.Adress form {
+    width: 311px;
+    height: 429px;
+    /* border: greenyellow 1px solid; */
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    color: #0A0A09;
+}
+
+.Adress form{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.IL, .IL2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.IL input, .IL2 input {
+    height: 40px;
+    width: 280px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #0A0A09;
+    border: none;
+    margin-top: 11px;
+}
+.formPart1 {
+    padding-left: 15px;
+}
+
+.formPart2 {
+    align-items: flex-end;
+    padding-right: 15px;
+}
+
+#Bouton1 {
+    width: 200px;
+    height: 40px;
+    background: #0A0A09;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: #FFFEFE;
+    margin-top: 55px;
+    margin-left: 210px;
+}
+
+/* RECAPTULATIF */
+.recapContainer {
+    height: 1200px;
+}
+
+.titreRecap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+    height: 50px;
+    background: #F8F6F7;
+    display: flex;
+    padding-bottom: 30px;
+}
+
+.titreRecap h3 {
+    display: flex;
+    align-items: center;
+    width: 250px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    padding-left: 19px;
+
+}
+
+.titreRecap input {
+    height: 50px;
+    width: 150px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #F8F6F7;
+    background: #070707;
+    border: none;
+    padding: 5px;
+}
+
+.ArticlesTout {
+    width: 450px;
+    height: 900px;
+    background: #F8F6F7;
+}
+
+.achatArt {
+    width: 360px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.achatArt img {
+    border: white 10px solid;
+    height: 120px;
+    width: 90px;
+}
+
+.infoArt {
+    width: 230px;
+    height: 120px;
+}
+
+
+.infoArt h4 {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.infoArt p {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.espaceArt {
+    width: 280px;
+}
+
+hr {
+    border: 3px solid #000000;
+    transform: matrix(1, 0, 0.01, 1, 0, 0);
+}
+
+.tes {
+    display: flex;
+    justify-content: space-between;
+    /* width: 360px; */
+    margin-bottom: 15px;
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+
+}
+
+.tes p {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.tes .des {
+    width: 214px;
+}
+
+.incluse {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: right;
+    color: #8C8C8C;
+    margin-bottom: 50px;
+    padding-right: 15px;
+    padding-top: 20px
+}
+
+.TotalPrix {
+    width: 430px;
+    height: 69px;
+    background: #E7A07A;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #FFFDFD;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 130px;
+}
+
+.taxes {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    margin-top: 20px;
+    padding-left: 10px;
+}
+
+#bouton2 {
+    width: 350px;
+    height: 56px;
+    background: #000000;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin: 75px 30px 0px 50px;
+}
+
+#bouton2:hover{
+    background-color: #AD8CB5;
+    border: #AD8CB5;
+}
+
+.paying a{
+    text-decoration: none;
+}
+
+
+
+.vestis {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    margin: 50px;
+}
+
+
+
+/* FOOTER / FIN DE PAGE */
+footer {
+    height: 415px;
+    background: #E7D0C4;
+    padding-top: 41px;
+    padding-left: 33px;
+    padding-right: 33px;
+    color: #F8F6F7;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+}
+
+
+.ReseauxApplis, .informations {
+    width: 350px;
+}
+
+.ProgFidele {
+    width: 371px;
+    height: 307px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer h4 {
+    height: 50px;
+    width: 350px;
+    border: 4px solid #F8F6F7;
+    font-size: 24px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* // 1 - LIVRAISON ET PAIEMENT // */
+.informations {
+    height: 314px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.payeBloc {
+    height: 73px;
+}
+
+.livrBloc {
+    height: 95px;
+}
+
+.paiementFooter, .livraisonFooter {
+    display: flex;
+    justify-content: space-between;
+    width: 245px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    align-items: center;
+}
+
+.logosPaiement {
+    width: 280px;
+}
+
+.logosLivraison {
+    width: 295px;
+}
+
+
+
+/* // 2 - PROGRAMME FIDELITE // */
+
+li {
+    font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 400;
+}
+
+.ProgFidele a {
+    color: inherit;
+    font-size: 24px;
+}
+
+
+/* // 3 - RESEAUX ET APPLIS // */
+.ReseauxApplis {
+    height: 291.9px;
+    align-items: center;
+}
+
+.reseaux h4 {
+    margin-bottom: 40px;
+}
+
+.applis {
+    width: 259px;
+    height: 90.9px;
+}
+
+.applis p {
+    text-align: center;
+    margin-bottom: 16px;
+}
